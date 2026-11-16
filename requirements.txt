@@ -1,0 +1,46 @@
+# Core framework
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+streamlit==1.67.0
+
+# Multi-agent orchestration
+langgraph==1.2.20
+langchain-core==1.7.6
+
+# Gemini AI
+google-genai==3.0.0
+
+# Data validation
+pydantic==2.14.3
+pydantic-settings==2.16.2
+
+# Environment
+python-dotenv==1.2.4
+
+# HTTP client
+httpx==0.28.1
+
+# Git operations
+GitPython==3.2.1
+
+# PDF report generation
+reportlab==5.1.0
+Pillow==13.0.0
+
+# Security scanners (Python-based)
+# Semgrep and Checkov are optional runtime scanners. Install them separately if needed.
+# Examples:
+#   python -m pip install semgrep==1.184.0
+#   python -m pip install checkov==3.4.3
+
+# Async file I/O
+aiofiles==25.1.0
+
+# FastAPI extras
+python-multipart==0.0.33
+
+# Visualization (Streamlit dashboard)
+plotly==7.1.0
+
+# Utilities
+rich==15.0.0

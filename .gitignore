@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.venv/
+.tools/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+# Generated audit output may contain sensitive repository details.
+reports/*.json
+reports/*.pdf
+
